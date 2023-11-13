@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+binothaimeen.net	TRUE	/	FALSE	1999999999	PHPSESSID	5ea995cef17f252b2cd307a1d17ef3a3
+

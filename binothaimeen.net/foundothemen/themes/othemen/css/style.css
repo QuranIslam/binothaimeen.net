@@ -1,0 +1,591 @@
+#featured{ 
+	width:640px; 
+	padding-right:0; 
+	position:relative; 
+	border:none; 
+	height:330px; 
+	background:#fff;
+	float:right;
+	margin:0;
+}
+#featured ul.ui-tabs-nav{ 
+	position:absolute; 
+	top:0; right:0px; 
+	list-style:none; 
+	padding:0; margin:0; 
+	width:244px; 
+}
+#featured ul.ui-tabs-nav li{ 
+	padding:0; padding-left:0;  
+	font-size:12px; 	color:#666; 
+	width:244px; direction:rtl; height:66px;
+}
+/*#featured ul.ui-tabs-nav li:active{ 
+	background:#487327 url(../images/grad-bg.jpg) repeat-x top left;
+	color:#FFF;
+	border:1px solid #141414;
+}
+*/
+#featured ul.ui-tabs-nav li img{ 
+	float:right; margin:5px 7px 5px 7px; 
+	background:#fff; 
+	padding:0; 
+	border:2px solid #a4c75f;
+	width:66px;
+	height:50px;
+}
+
+#featured ul.ui-tabs-nav li span{ 
+float:left; margin:8px 0px 0 8px; width:149px; 
+	 font:normal 12px 'GE_SS_Two', Tahoma, Geneva, sans-serif;
+	line-height:15px;
+	text-align:justify;
+	direction:rtl;
+	}
+#featured li.ui-tabs-nav-item a{ 
+	display:block; 
+	height:65px; 
+	color:#59781f; 
+	line-height:1.5em;
+	background: url("../images/navigator_bg.html") repeat-x scroll left top #EFEFEF;	border-bottom:1px solid #dadada;
+}
+#featured li.ui-tabs-nav-item a:hover{ 
+	background:#f2f2f2; 
+}
+#featured li.ui-tabs-selected{ 
+	background:url('../images/selected-item.html') top left no-repeat;
+		z-index:1;
+}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a{ 
+
+	background:/*#518925*/#cf0610 url(../images/grad-bg.html) repeat-x top left;
+	color:#FFF;
+	border-bottom:1px solid #6f0203;
+	z-index:1000;
+	margin-left:-5px;
+}
+
+#featured ul.ui-tabs-nav li.ui-tabs-selected a img{ 
+border:2px #fff solid;
+}
+
+#featured .ui-tabs-panel{ 
+	width:396px; height:330px; 
+	background:#999; position:relative;
+}
+#featured .ui-tabs-panel img{ 
+	width:100%; height:100%;
+}
+#featured .ui-tabs-panel .info{ 
+	position:absolute; 
+	top:240px; left:0; 
+	height:90px; 
+	background: url(../images/transparent_bg.html) repeat;
+	width:396px; 
+}
+#featured .info h6{ 
+	 padding:0; margin:5px 10px 5px 10px;
+	overflow:hidden;
+	direction:rtl;
+	text-align:right; 
+}
+#featured .info h6 a {	font:normal 13px 'hacen_saudi', Tahoma, Geneva, sans-serif; color:#ffae00;}
+#featured .info p{ 
+	margin:0 10px 5px 10px !important;
+	padding:0 !important; 
+	font-family: 'GE_SS_Two', Tahoma, Geneva, sans-serif; font-size:11px; 
+	line-height:1.5em; color:#f0f0f0;
+}
+#featured .info a{ 
+font:normal 13px 'hacen_saudi', Tahoma, Geneva, sans-serif; color:#ffae00;
+}
+#featured .info a:hover{ 
+	text-decoration:underline; 
+}
+#featured .ui-tabs-hide{ 
+	display:none; 
+}
+
+/*******************************************************/
+/* Reset *//*
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,nav,section{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block}body{line-height:1}a img{border:none}table{border-collapse:separate;border-spacing:0}caption,th,td{text-align:left;font-weight:normal}table,td,th{vertical-align:middle}blockquote:before,blockquote:after,q:before,q:after{content:""}blockquote,q{quotes:""""}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}button::-moz-focus-inner{border:0}
+*//*
+body
+{
+	background-color: #dfdfdf;
+	color: #fff;
+	font-family: Century Gothic, Arial;
+	font-size: 12px;
+	line-height: 1.5;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+*//*
+a
+{
+	color: #ff377c;
+}
+
+p
+{
+	margin-bottom: 10px;
+}
+
+h1
+{
+	font-size: 20px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+h2
+{
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.menu
+{
+	margin-bottom: 40px;
+	text-align: center;
+	color: #999;
+}
+
+	.menu a
+	{
+		color: #999;
+	}
+	
+	.menu a.active
+	{
+		font-weight: bold;
+	}
+
+*/
+/* Showcase
+-------------*/
+
+
+#slider_2
+{width: 198px; height: 152px; overflow: hidden; /*background:#fff url(../images/slider-bg.jpg) left top repeat-x; border:1px solid #e3dbc3; */ -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; margin:49px auto auto auto; padding:0;}
+
+#awOnePageButton .view-slide
+{
+	display: none;
+}
+
+/* This class is removed after the showcase is loaded */
+/* Assign the correct showcase height to prevent loading jumps in IE */
+.showcase-load
+{
+	height: 200px; /* Same as showcase javascript option */
+	overflow: hidden;
+}
+
+/* Container when content is shown as one page */
+.showcase-onepage
+{
+	/**/
+}
+
+/* Container when content is shown in slider */
+
+.showcase
+{
+	position: relative;
+	margin: auto;
+}
+
+	.showcase-content-container
+	{
+		background-color: ;
+		
+	}
+	
+	/* Navigation arrows */
+	.showcase-arrow-previous, .showcase-arrow-next
+	{
+		position: absolute;
+		background: url('../images/arrows.png');
+		width: 33px;
+		height: 33px;
+		top: 120px;
+		cursor: pointer;
+		z-index:1;
+		/*display:none;*/
+	}
+	
+	.showcase-arrow-previous
+	{
+		left: 60px;
+	}
+	
+	.showcase-arrow-previous:hover
+	{
+		background-position: 0px -34px;
+	}
+	
+	.showcase-arrow-next
+	{
+		right: 65px;
+		background-position: -34px 0;
+	}
+	
+	.showcase-arrow-next:hover
+	{
+		background-position: -34px -34px;
+	}
+	
+	
+	
+	/* Navigation arrows */
+	#showcase2 .showcase-arrow-previous, #showcase2 .showcase-arrow-next
+	{
+		position: absolute;
+		background: url('../images/arrows.png');
+		width: 33px;
+		height: 33px;
+		top: 187px;
+		cursor: pointer;
+		z-index:1;
+		/*display:none;*/
+	}
+	
+	#showcase2 .showcase-arrow-previous
+	{
+		left: 60px;
+	}
+	
+	#showcase2 .showcase-arrow-previous:hover
+	{
+		background-position: 0px -34px;
+	}
+	
+	#showcase2 .showcase-arrow-next
+	{
+		right: 65px;
+		background-position: -34px 0;
+	}
+	
+	#showcase2 .showcase-arrow-next:hover
+	{
+		background-position: -34px -34px;
+	}
+	
+	/* Content */
+	.showcase-content
+	{
+		background-color:;
+		text-align: center;
+		
+	}
+		
+		.showcase-content-wrapper
+		{
+			text-align: center;
+			height:150px;
+			width: 700px;
+			display: table-cell;
+			vertical-align: middle;
+		}
+		
+		/* Styling the tooltips */
+		.showcase-plus-anchor
+		{
+			background-image: url('../images/plus.html');
+			background-repeat: no-repeat;
+		}
+		
+		.showcase-plus-anchor:hover
+		{
+			background-position: -32px 0;
+		}
+		
+		div.showcase-tooltip
+		{
+			background-color: #fff;
+			color: #000;
+			text-align: left;
+			padding: 5px 8px;
+			background-image: url(../images/white-opacity-80.html);
+		}
+		
+		/* Styling the caption */
+		.showcase-caption
+		{
+			color: #000;
+			padding: 8px 15px;
+			text-align: left;
+			position: absolute;
+			bottom: 10px; left: 10px; right: 10px;
+			display: none;
+			background-image: url(../images/white-opacity-80.html);
+		}
+		
+	.showcase-onepage .showcase-content
+	{
+		margin-bottom: 10px;
+	}
+	
+	/* Button Wrapper */
+	.showcase-button-wrapper
+	{
+		clear: both;
+		margin-top: 10px;
+		text-align: center;
+		
+		background-color: #f8f9fa;
+    border-top: #e1e4e5 1px solid;
+ width: auto;		
+		
+		height:45px;
+		-moz-border-radius: 0 0 10px 10px; -webkit-border-radius: 0 0 10px 10px; border-radius: 0 0 10px 10px;
+	}
+	
+		.showcase-button-wrapper span
+		{
+			/*float:left;*/
+			display:inline-block;
+			margin: 15px 5px 0 0;
+			padding: 1px 2px 1px 2px;
+			cursor: pointer;
+			font-size: 12px;
+			color: #d26d1b;
+			border:1px solid #c8ccad;
+			background:;
+			text-align:center;
+			line-height:15px;
+			width:12px; height:15px;
+		}
+	
+		.showcase-button-wrapper span.active
+		{
+			padding: 1px 2px 1px 2px;
+			color: #fff;
+			border:1px solid #d26d1b;
+			background:#d26d1b;
+		}
+	
+	/* Thumbnails */
+	.showcase-thumbnail-container /* Used for backgrounds, no other styling!!! */
+	{
+		background-color: #000;
+	}
+	
+	.showcase-thumbnail-wrapper
+	{
+		overflow: hidden;
+	}
+		
+		.showcase-thumbnail
+		{
+			width: 120px;
+			height: 90px;
+			cursor: pointer;
+			border: solid 1px #333;
+			position: relative;
+		}
+		
+			.showcase-thumbnail-caption
+			{
+				position: absolute;
+				bottom: 2px;
+				padding-left: 10px;
+				padding-bottom: 5px;
+			}
+			
+			.showcase-thumbnail-content
+			{
+				padding: 10px;
+				text-align: center;
+				padding-top: 25px;
+			}
+			
+			.showcase-thumbnail-cover
+			{
+				background-image: url(../images/black-opacity-40.html);
+				position: absolute;
+				top: 0; bottom: 0; left: 0; right: 0;
+			}
+		
+		.showcase-thumbnail:hover
+		{
+			border: solid 1px #999;
+		}
+		
+			.showcase-thumbnail:hover .showcase-thumbnail-cover
+			{
+				display: none;
+			}
+		
+		.showcase-thumbnail.active
+		{
+			border: solid 1px #999;
+		}
+		
+			.showcase-thumbnail.active .showcase-thumbnail-cover
+			{
+				display: none;
+			}
+	
+	.showcase-thumbnail-wrapper-horizontal
+	{
+		padding: 10px;
+	}
+	
+		.showcase-thumbnail-wrapper-horizontal .showcase-thumbnail
+		{
+			margin-right: 10px;
+			width: 116px;
+		}
+	
+	.showcase-thumbnail-wrapper-vertical
+	{
+		padding: 10px;
+	}
+	
+		.showcase-thumbnail-wrapper-vertical .showcase-thumbnail
+		{
+			margin-bottom: 10px;
+		}
+		
+	.showcase-thumbnail-button-backward,
+	.showcase-thumbnail-button-forward
+	{
+		padding: 7px;
+		cursor: pointer;
+	}
+	
+	.showcase-thumbnail-button-backward
+	{
+		padding-bottom: 0px;
+		padding-right: 0px;
+	}
+	
+		.showcase-thumbnail-button-backward .showcase-thumbnail-vertical,
+		.showcase-thumbnail-button-forward .showcase-thumbnail-vertical,
+		.showcase-thumbnail-button-forward .showcase-thumbnail-horizontal,
+		.showcase-thumbnail-button-backward .showcase-thumbnail-horizontal
+		{
+			background-image: url(../images/arrows-small.html);
+			background-repeat: no-repeat;
+			display: block;
+			width: 17px;
+			height: 17px;
+		}
+		
+		.showcase-thumbnail-button-backward .showcase-thumbnail-vertical
+		{
+			background-position: 0 -51px;
+			margin-left: 55px;
+		}
+		.showcase-thumbnail-button-backward:hover .showcase-thumbnail-vertical
+		{
+			background-position: -17px -51px;
+		}
+		
+		.showcase-thumbnail-button-forward .showcase-thumbnail-vertical
+		{
+			background-position: 0 -34px;
+			margin-left: 55px;
+		}
+		.showcase-thumbnail-button-forward:hover .showcase-thumbnail-vertical
+		{
+			background-position: -17px -34px;
+		}
+		
+		.showcase-thumbnail-button-backward .showcase-thumbnail-horizontal
+		{
+			background-position: 0 -17px;
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+		.showcase-thumbnail-button-backward:hover .showcase-thumbnail-horizontal
+		{
+			background-position: -17px -17px;
+		}
+		
+		.showcase-thumbnail-button-forward .showcase-thumbnail-horizontal
+		{
+			background-position: 0 0;
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+		.showcase-thumbnail-button-forward:hover .showcase-thumbnail-horizontal
+		{
+			background-position: -17px 0;
+		}
+		
+		/* Hide button text */
+		.showcase-thumbnail-button-forward span span,
+		.showcase-thumbnail-button-backward span span
+		{
+			display: none;
+		}
+	
+
+
+/* Clear (used for horizontal thumbnails)
+-------------------------------------------*/
+
+.clear
+{
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	float: none;
+}
+
+/*my add class
+------------------------------------------*/
+.showcase-content-header
+{width:auto; clear:both; font:normal 12px 'GE_SS_Two', Tahoma, Geneva, sans-serif; color:#504e4e; line-height:1.5em; text-align:center; padding:0; margin:5px 10px 0 10px;}
+.showcase-content img
+{float:right;
+width: 136px;
+    height: 101px;
+    padding: 4px;
+margin:0 8px 8px 8px;
+    background: #fff;
+    border: 1px solid #f0e2c2;}
+.showcase-content-content
+{width:auto; clear:both; font:normal 12px 'GE_SS_Two', Tahoma, Geneva, sans-serif; line-height:1.5em; direction:rtl; color:#ca0404; text-align:center; margin:5px 10px 5px 10px;}
+.showcase-content-left h3
+{text-align:right; line-height:2em; font:normal 12px 'GE_SS_Two', Tahoma, Geneva, sans-serif; font-size:12px; color:#d0650e;}
+.showcase-content-left h3 span
+{padding-right:13px; font:italic 11px Arial, Helvetica, sans-serif; color:#6d9e29;}
+.showcase-content-left p
+{text-align:justify; direction:rtl; padding:0 10px; color:#4a4a4a; line-height:1.8em}
+
+
+
+/*my add class
+------------------------------------------*/
+.showcase-content-right-2
+{width:auto; height:auto; float:right;  margin:20px 8px 10px 0}
+.showcase-content-right-2 a img {width:106px; height:71px; display:block;  padding:4px; background:#fff; border:1px solid #f0e2c2;  margin:auto;-moz-transition:opacity 200ms ease;-webkit-transition:opacity 200ms ease; transition:opacity 200ms ease; -webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;}
+.showcase-content-right-2 a img:hover {opacity:.7;}
+.showcase-content-left-2
+{width:327px; height:auto; overflow:hidden; margin:5px 10px 10px 0; padding:15px 0 0 6px; float:right; text-align:right; background:}
+.writer-info-div {width:327px; height:auto; overflow:hidden; margin:5px 10px 10px 0; padding:15px 0 0 6px; float:right; text-align:right;}
+.writer-info {width:auto; background:url(../images/writer-info.png) right center no-repeat; height:35px; margin:0 0 0 2px; position:relative; display:block}
+.writer-info span {float:right; text-align:right; direction:rtl; /*background:#666;*/ line-height:34px; position:absolute; top:11px; color:#bf6b17; font: bold 11px Arial, Helvetica, sans-serif}
+.writer  {width:85px;  right:21px;}  
+.date  {width:70px;  right:185px;} 
+.posts {width:50px;  right:300px;}
+.showcase-content-left-2 h3
+{text-align:right; line-height:2em; display:inline-block; font:bold 10px Tahoma, Geneva, sans-serif; color:#d0650e;}
+.showcase-content-left-2 h3 span
+{padding-right:13px; font:italic 11px Arial, Helvetica, sans-serif; color:#6d9e29;}
+.sshowcase-content-left-2 p
+{text-align:justify; direction:rtl; font:normal 12px 'GE_SS_Two', Tahoma, Geneva, sans-serif;  color:#4a4a4a; line-height:1.5em; padding:5px 0 0 0; }
+#owl-demo .item img {
+        display: block;
+        width: 100%;
+        height: auto; }
